@@ -1,0 +1,10 @@
+^M:\H1_TOOL_PROJECTS\RECASTNAVIGATION-MAIN\NAVMESHBUILDER\NAVMESH_BUILD\CMAKEFILES\D80466E61C346591B0C2D70E644487A5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SM:/H1_Tool_Projects/recastnavigation-main/NavMeshBuilder -BM:/H1_Tool_Projects/recastnavigation-main/NavMeshBuilder/navmesh_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file M:/H1_Tool_Projects/recastnavigation-main/NavMeshBuilder/navmesh_build/StandaloneNavMeshBuilder.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

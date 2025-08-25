@@ -1,0 +1,10 @@
+^M:\H1_TOOL_PROJECTS\RECASTNAVIGATION-MAIN\NAVMESHBUILDER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SM:/H1_Tool_Projects/recastnavigation-main/NavMeshBuilder -BM:/H1_Tool_Projects/recastnavigation-main/NavMeshBuilder/navmesh_build --check-stamp-file M:/H1_Tool_Projects/recastnavigation-main/NavMeshBuilder/navmesh_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

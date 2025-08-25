@@ -53,3 +53,6 @@ build
 ## IDE files
 .idea/
 cmake-build-*/
+
+# -------------- MY CUSTOM FILES --------------
+!NavMeshBuilder/

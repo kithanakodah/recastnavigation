@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="M:\H1_Tool_Projects\recastnavigation-main\NavMeshBuilder\navmesh_build\CMakeFiles\d80466e61c346591b0c2d70e644487a5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6F7C13A7-586D-33EF-925B-A058E041C7EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
