@@ -3,11 +3,13 @@
 Also contains a Navmesh checker
 
 Prerequisites
+
 Required Software:
 
 Visual Studio 2017, 2019, or 2022 with C++ development tools
 
 Must include Windows SDK and MSVC compiler
+
 Can use Visual Studio Community (free version)
 
 CMake 3.10 or higher
@@ -15,6 +17,7 @@ CMake 3.10 or higher
 NAVMESH CHECKER:
 
 you can change the settings parameters in recastnavigation-main\NavMeshChecker\navmesh_checker.cpp
+
 and then build
 
 From Powershell:
@@ -22,22 +25,30 @@ From Powershell:
 Navigate to recastnavigation-main\NavMeshBuilder
 
 .\build_and_run.bat
+
 builds the navmesh checker
 
 .\navmesh_build\bin\NavMeshChecker.exe "C:\Full\Nav\Mesh\Path.obj"
+
 runs the navmesh checker, should only take a few seconds
+
 will give a brief summary, but for full analysis see navmesh_analysis_.txt in the NavMeshBuilder folder
 
 Remove-Item -Recurse -Force navmesh_build
+
 to delete all builds and start fresh (should do if changing file/settings, will not exist until first build)
 
 
 64 BIT RECASTDEMO BUILD:
 
 open recastnavigation-main\build\RecastDemo\Release\RecastDemo.exe
+
 put your .obj into recastnavigation-main\build\RecastDemo\Release\Meshes
+
 much much higher tile count allowance and poly allowance in 64bit.  However still 65535 vertices per tile (32bit and 64bit limit, use the navmesh checker can help).  
+
 UI does not reflect max poly and tile counts properly, just force it man.
+
 if you go over 65535 vertices in a tile it may only build part of that tile (or over poly counts etc they likely just will fail building)
 
 
