@@ -1,8 +1,6 @@
 ## Compiled source #
 *.com
 *.class
-*.dll
-*.exe
 *.ilk
 *.o
 *.pdb
@@ -47,12 +45,6 @@ RecastDemo/Contrib/SDL/*
 ## Generated doc files
 Docs/html
 
-## CMake build cache
-build
-
 ## IDE files
 .idea/
 cmake-build-*/
-
-# -------------- MY CUSTOM FILES --------------
-!NavMeshBuilder/

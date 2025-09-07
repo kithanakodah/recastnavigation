@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"M:/H1_Tool_Projects/recastnavigation-main/NavMeshBuilder/navmesh_build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

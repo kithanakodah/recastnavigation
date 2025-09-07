@@ -607,8 +607,8 @@ bool Sample_TileMesh::handleBuild()
 	rcVcopy(params.orig, m_geom->getNavMeshBoundsMin());
 	params.tileWidth = m_tileSize*m_cellSize;
 	params.tileHeight = m_tileSize*m_cellSize;
-	params.maxTiles = m_maxTiles;
-	params.maxPolys = m_maxPolysPerTile;
+	params.maxTiles = 1048576;    // 1M tiles (plenty for 8km x 8km)
+	params.maxPolys = 65536;      // 64k polys per tile
 	
 	dtStatus status;
 	

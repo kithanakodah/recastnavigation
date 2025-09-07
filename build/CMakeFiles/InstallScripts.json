@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"M:/H1_Tool_Projects/recastnavigation-main/build/cmake_install.cmake",
+		"M:/H1_Tool_Projects/recastnavigation-main/build/DebugUtils/cmake_install.cmake",
+		"M:/H1_Tool_Projects/recastnavigation-main/build/Detour/cmake_install.cmake",
+		"M:/H1_Tool_Projects/recastnavigation-main/build/DetourCrowd/cmake_install.cmake",
+		"M:/H1_Tool_Projects/recastnavigation-main/build/DetourTileCache/cmake_install.cmake",
+		"M:/H1_Tool_Projects/recastnavigation-main/build/Recast/cmake_install.cmake",
+		"M:/H1_Tool_Projects/recastnavigation-main/build/RecastDemo/cmake_install.cmake",
+		"M:/H1_Tool_Projects/recastnavigation-main/build/Tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
